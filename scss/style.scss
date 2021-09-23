@@ -106,7 +106,7 @@ BODY {
     justify-content: center;
     flex-wrap: wrap;
     padding-top: 3px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .btn {
@@ -124,7 +124,7 @@ BODY {
     margin-right: 3px;
     margin-left: 3px;
     margin-top: 5px;
-    transform: background-color 10s;
+    transition: background-color 1s;
 }
 
 .btn:hover {
