@@ -39,6 +39,7 @@ BODY {
   color: #f76e06;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: 1px 1px 1px #000000, 0 0 1em #fff;
+  padding-top: 15px;
 }
 
 .block {
