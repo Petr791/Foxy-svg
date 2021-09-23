@@ -1,0 +1,269 @@
+/* @import'_nullstyle'; */
+
+HTML,
+BODY {
+    height: 100%;
+}
+
+BODY {
+    background: #FFF;
+    background-image: linear-gradient( #EEE 1px, transparent 2px), linear-gradient( to right, #EEE 1px, transparent 2px);
+    background-size: 1em 1em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    height: 100vh;
+    padding: 5px 0px 5px 0px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #f76e06;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px #000000, 0 0 1em #fff;
+}
+
+.block {
+    /* border: 1px solid red; */
+    /* margin-top: 30px; */
+    flex: 0 0 auto;
+}
+
+
+/* .block {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+} */
+
+
+/*Svg*/
+
+.svg {
+    width: 100%;
+    max-height: 650px;
+}
+
+.foxy-red {
+    fill: #f76e06;
+}
+
+.foxy2-red {
+    fill: #f76e06;
+}
+
+.foxy-2 {
+    display: block;
+}
+
+.foxy-2 {
+    display: none;
+}
+
+.dnone {
+    display: none;
+}
+
+.dblock {
+    display: block;
+}
+
+
+/*Фон Body*/
+
+.bgcolor-1 {
+    background-color: aqua;
+}
+
+.bgcolor-2 {
+    background-color: #5758e1;
+}
+
+
+/*Кнопки*/
+
+.block-btn {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 3px;
+}
+
+.btn {
+    display: inline-block;
+    color: #f76e06;
+    background-color: #dcdcdc;
+    border: 3px solid #f76e06;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    line-height: 1.4;
+    padding: 0px 20px 0px 20px;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-top: 5px;
+    transform: background-color 10s;
+}
+
+.btn:hover {
+    background-color: #b4d3d6;
+}
+
+
+/*=======================================*/
+
+.foxyanim {
+    animation-name: animfoxy;
+    -webkit-animation-name: animfoxy;
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    visibility: visible !important;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animfoxy {
+    0% {
+        fill: #f76e06;
+    }
+    25% {
+        fill: #f76e06;
+    }
+    50% {
+        fill: #d3ac8894;
+    }
+    75% {
+        fill: #f76e06;
+    }
+    100% {
+        fill: #f76e06;
+    }
+}
+
+@-webkit-keyframes animfoxy {
+    0% {
+        fill: #f76e06;
+    }
+    25% {
+        fill: #f76e06;
+    }
+    50% {
+        fill: #d3ac8894;
+    }
+    75% {
+        fill: #f76e06;
+    }
+    100% {
+        fill: #f76e06;
+    }
+}
+
+
+/*=======================================*/
+
+.foxyanim-2 {
+    animation-name: anim2;
+    -webkit-animation-name: anim2;
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    visibility: visible !important;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim2 {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes anim2 {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*=======================================*/
+
+.foxyanim3 {
+    animation-name: animfoxy3;
+    -webkit-animation-name: animfoxy3;
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    visibility: visible !important;
+    /* animation-direction: reverse; */
+    animation-iteration-count: infinite;
+}
+
+@keyframes animfoxy3 {
+    0% {
+        fill: #f76e06;
+    }
+    50% {
+        fill: #d3ac8894;
+    }
+    100% {
+        fill: #f76e06;
+    }
+}
+
+@-webkit-keyframes animfoxy3 {
+    0% {
+        fill: #f76e06;
+    }
+    50% {
+        fill: #d3ac8894;
+    }
+    100% {
+        fill: #f76e06;
+    }
+}
