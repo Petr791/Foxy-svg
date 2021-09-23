@@ -58,12 +58,15 @@ window.onload = function() {
 
     }
 
+
+
+
 }
 
 
 
 
-function myFunction2() {
+/* function myFunction2() {
     document.body.classList.remove('bgcolor-2');
     document.body.classList.toggle('bgcolor-1');
 }
@@ -72,4 +75,4 @@ function myFunction4() {
     document.body.classList.remove('bgcolor-1');
     document.body.classList.toggle('bgcolor-2');
 }
-console.log('hello!');
+console.log('hello!'); */
