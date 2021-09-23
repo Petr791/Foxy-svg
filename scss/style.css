@@ -45,7 +45,7 @@ BODY {
 .block {
   /* border: 1px solid red; */
   /* margin-top: 30px; */
-  flex: 0 0 auto;
+  flex: 1 1 auto;
 }
 
 /* .block {
