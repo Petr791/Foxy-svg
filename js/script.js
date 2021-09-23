@@ -61,12 +61,7 @@ window.onload = function() {
 }
 
 
-function myFunc() {
-    let blocks = document.getElementsByClassName("block");
-    for (let i = 0; i < blocks.length; i++) {
-        blocks[i].style.color = "green";
-    }
-}
+
 
 function myFunction2() {
     document.body.classList.remove('bgcolor-2');
@@ -77,3 +72,4 @@ function myFunction4() {
     document.body.classList.remove('bgcolor-1');
     document.body.classList.toggle('bgcolor-2');
 }
+console.log('hello!');
